@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dojo Arena</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.js"
+    integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI=" crossorigin="anonymous"></script>
+  <script src="outline.js"></script>
+  <link rel="stylesheet" href="outline.css">
+</head>
+
+<body class="ta-center">
+
+  <main id="select-arena" class="br10">
+    <h1 class="mb10">Select Arena</h1>
+    <menu class="d-ib ta-center">
+        <div class="mb4">
+          <button class="select-btn br10">beach</button>
+          <button class="select-btn br10">planet</button>
+          <button class="select-btn br10">dojo</button>
+        </div>
+        <div>
+          <button class="select-btn br10">forest</button>
+          <button class="select-btn br10">matrix</button>
+          <button class="select-btn br10">snow</button>
+        </div>
+    </menu>
+  </main> <!-- #select-arena -->
+
+  <main id="select-player" class="br10 d-none">
+    <h1 class="mb10">Select Player</h1>
+    <menu class="d-ib ta-center">
+        <select id="select-player1" name="" class="available-players">
+          <option value="" disabled selected>Select Ninja</option>
+          <option value="donny">Donny</option>
+          <option value="leo">Leo</option>
+          <option value="mikey">Mikey</option>
+          <option value="raphael">Raphael</option>
+        </select>
+    </menu>
+  </main> <!-- #select-player -->
+
+</body>
+
+</html>
